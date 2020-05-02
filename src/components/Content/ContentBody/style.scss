@@ -1,0 +1,32 @@
+$font-name: 'Montserrat';
+
+.content-body {
+  .title {
+    font: {
+      family: $font-name;
+      size: 18px;
+      weight: bold;
+    }
+    text: {
+      transform: uppercase;
+    }
+    letter-spacing: 1px;
+  }
+    
+  .description {
+    font: {
+      family: $font-name;
+      size: 13px;
+      weight: 600;
+    }
+
+    .date {
+      letter-spacing: 1px;
+    }
+
+    .text {
+      margin-bottom: 40px;
+      font-weight: 600;
+    }
+  }  
+}

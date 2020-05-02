@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+@import '~bootstrap/scss/bootstrap';
+@import './components/Loading/style.scss';
+
+$font-name: 'Montserrat';
+
+.body {
+  padding-top: 2rem;
+}
+
+@media (min-width: 500px) {
+  // desktop only
+  .body {
+    margin-left: 20px;
+    border: {
+      right: solid 1px grey;
+      bottom: solid 1px grey;
+      top: solid 1px grey;
+    }
+  }
+}
